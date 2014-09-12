@@ -85,4 +85,4 @@ module MigrationComments
   end
 end
 
-MigrationComments.setup
+require 'migration_comments/railtie' if defined?(Rails)
